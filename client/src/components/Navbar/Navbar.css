@@ -1,0 +1,119 @@
+.main-nav {
+    min-height: 50px;
+    width: 100%;
+    margin: 0% auto;
+    border-top: solid 3px #154c4c ;
+    box-shadow: 0px 1px 5px #00000033;
+    position: fixed;
+    z-index: 15;
+    top: 0%;
+    left: 0%;
+    background-color: #000000 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar {
+    height: 100%;
+    min-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .navbar-1 {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .navbar .navbar-2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    padding: 5px 25px;
+  }
+  
+  .nav-item {
+    margin: 0px 3px;
+    font-size: small;
+    /* font-size: 15px; */
+    /* font-weight: 500; */
+    font-weight: bold;
+
+    text-decoration: none;
+    color: rgb(255, 153, 19);
+    transition: 0.2s;
+  }
+  
+  .nav-btn {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  
+  .nav-item:hover,
+  .slide-in-icon:hover {
+    color: white;
+    background-color: rgba(225, 153, 19);
+  }
+  
+  .navbar .navbar-1 form {
+    flex-grow: 1;
+    padding: 0px 12px;
+    position: relative;
+  }
+  
+  .navbar .navbar-1 form input {
+    min-width: 75%;
+    margin: 0;
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    border: solid 1px #0000003e;
+    /* background-color:rgb(241, 166, 55); */
+    border-radius: 20px;
+  }
+  
+  .navbar .navbar-1 form .search-icon {
+   
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    
+  }
+  
+  .nav-links {
+    padding: 5px 13px;
+    margin-left: 50px;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: #2376b0;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  
+  .nav-links:hover {
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    background-color: #085186b5;
+    transition: 'background-color 0.3s ease-in-out',
+  }
+  
+  @media screen and (max-width: 1120px) {
+    .navbar .navbar-1 form {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .navbar .navbar-1 .res-nav {
+      display: none;
+    }
+  }
+  
